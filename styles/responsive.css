@@ -35,4 +35,17 @@
         margin-left: 10px;
     }
 
+    .popular-tour-section {
+        flex-direction: column;
+        padding: 0 30px;
+        margin-top: 10px;
+    }
+
+    .popular-tour-section button {
+        width: 175px;
+    }
+
+    .popular-tour-section .popular-tour-img img {
+        width: 100%;
+    }
 }
