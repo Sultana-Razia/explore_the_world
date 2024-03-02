@@ -116,4 +116,8 @@
         grid-column: 1;
     }
 
+    .service-container>div {
+        width: 100%;
+        margin: 0 20px;
+    }
 }
