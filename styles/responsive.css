@@ -116,8 +116,34 @@
         grid-column: 1;
     }
 
+    .service-section {
+        margin-top: 20px;
+    }
+
     .service-container>div {
         width: 100%;
         margin: 0 20px;
+    }
+
+    .newsletter-section {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .newsletter-text {
+        width: 100%;
+        height: 390px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .newsletter-form input,
+    button {
+        width: 100%;
+    }
+
+    .newsletter-img img {
+        width: 95%;
+        margin: 10px;
     }
 }
