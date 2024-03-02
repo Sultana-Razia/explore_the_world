@@ -7,10 +7,40 @@
 
 /* Mobile Device Styles */
 @media screen and (max-width:600px) {
+
+
     .header {
         width: 100%;
         padding: 10px;
         text-align: center;
+    }
+
+    .nav {
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 20px;
+    }
+
+    .nav .nav-img h1 {
+        font-size: 1.25rem;
+    }
+
+    .nav>.nav-menu {
+        display: none;
+    }
+
+    .responsive-menu {
+        display: block;
+
+    }
+
+    .responsive-menu>.nav-menu {
+        display: none;
+    }
+
+    /* .responsive-menu>.nav-menu, */
+    .responsive-menu>.fa-bars:hover {
+        display: block;
     }
 
     .header h1 {
@@ -148,8 +178,9 @@
     }
 
     .footer {
-        height: 280px;
+        height: 350px;
         margin-top: 20px;
+        border-radius: 10px;
     }
 
     .footer-heading {
