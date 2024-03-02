@@ -146,4 +146,13 @@
         width: 95%;
         margin: 10px;
     }
+
+    .footer {
+        height: 280px;
+        margin-top: 20px;
+    }
+
+    .footer-heading {
+        padding-top: 20px;
+    }
 }
