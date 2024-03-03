@@ -177,10 +177,28 @@
         margin: 10px;
     }
 
+    .save-70-percent {
+        width: 214.02px;
+        height: 79.27px;
+        bottom: 65px;
+        left: 320px;
+    }
+
+    .save-70-percent p {
+        padding-top: 20px;
+        font-size: 1rem;
+    }
+
+    .save-70-percent h2 {
+        font-size: 1rem;
+        font-weight: 800;
+    }
+
     .footer {
         height: 350px;
         margin-top: 20px;
         border-radius: 10px;
+        padding: 20px;
     }
 
     .footer-heading {
