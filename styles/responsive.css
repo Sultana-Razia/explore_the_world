@@ -155,6 +155,19 @@
         margin: 0 20px;
     }
 
+    .package-section {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .package-section .card {
+        width: 100%;
+    }
+
+    .package-detail #card2 {
+        padding-top: 30px;
+    }
+
     .newsletter-section {
         flex-direction: column;
         margin-top: 20px;
